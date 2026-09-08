@@ -1,0 +1,1360 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "b0304452-4e96-4dc3-a780-e32590653a7b",
+   "metadata": {},
+   "source": [
+    "## A food delivery order has 3 items, each costing Rs. 450. The delivery fee is Rs. 100\n",
+    "    Create variables and calculate the final bill."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "9d816e53-133e-4a0e-b1e8-0bafe91eec93",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "num_item=3\n",
+    "item_price=450\n",
+    "delivery_fee=100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "3315d748-f45f-4262-ad51-58c402aab4d9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1450"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "100+(3*450)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bc49849a-ce72-4ac9-ba7e-2c78c61d5034",
+   "metadata": {},
+   "source": [
+    "## You have Rs. 5,000 in your bank account. You spend Rs. 1,750 on groceries.\n",
+    "\n",
+    "    Create variables and calculate your remaining balance."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "f4e93dc4-683f-4195-81f6-7a1af95a4ee6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "balance=5000\n",
+    "groceries=1750"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "23f682a0-7098-41bb-abb9-94e4b3090a1c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3250"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(5000-1750)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "96dd1583-b930-497f-b573-8bdae55c25e9",
+   "metadata": {},
+   "source": [
+    "## A taxi charges Rs. 300 as a base fare and Rs. 50 per kilometer. You travel 8 km.\n",
+    "\n",
+    "    Create variables and calculate the total fare."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "955098cc-2207-48d5-a3c4-c3f45da706b0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "base_fare=300\n",
+    "rate_per_km=50\n",
+    "travel=8"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "6e922043-8659-44f9-9314-783bdca1bf6a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "400\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(50 * 8)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "438d1251-7d42-4dc5-944c-dd206a61764d",
+   "metadata": {},
+   "source": [
+    "## A movie ticket costs Rs. 750. You buy 4 tickets and pay Rs. 3,500.\n",
+    "\n",
+    "    Create variables and calculate the remaining amount after payment."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "89c0a6dc-4050-45b6-b7e1-8664c37b3b45",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Price per ticket: Rs. 750\n",
+      "Number of tickets: 4\n",
+      "Total Cost: Rs. 3000\n",
+      "Amount Paid: Rs. 3500\n",
+      "Change: Rs. 500\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Movie ticket calculation\n",
+    "ticket_price = 750\n",
+    "num_tickets = 4\n",
+    "amount_paid = 3500\n",
+    "\n",
+    "# Calculate total cost\n",
+    "total_cost = ticket_price * num_tickets\n",
+    "\n",
+    "# Calculate change\n",
+    "change = amount_paid - total_cost\n",
+    "\n",
+    "# Print result\n",
+    "print(\"Price per ticket: Rs.\", ticket_price)\n",
+    "print(\"Number of tickets:\", num_tickets)\n",
+    "print(\"Total Cost: Rs.\", total_cost)\n",
+    "print(\"Amount Paid: Rs.\", amount_paid)\n",
+    "print(\"Change: Rs.\", change)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b9745a90-ba65-48b7-abbd-e3cf64518e28",
+   "metadata": {},
+   "source": [
+    "## student has Rs. 2,500. They spend Rs. 750 on a book and Rs. 300 on a notebook.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "        Initial money\n",
+    "        Book price\n",
+    "        Notebook price\n",
+    "\n",
+    "#### Then calculate and print the remaining money."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "744ec821-6f9a-4cfa-9e23-8417ae2460ce",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Initial Money: Rs. 2500\n",
+      "Book Price: Rs. 750\n",
+      "Notebook Price: Rs. 300\n",
+      "Total Spent: Rs. 1050\n",
+      "Remaining Money: Rs. 1450\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Student expense calculation\n",
+    "\n",
+    "# Create variables\n",
+    "initial_money = 2500\n",
+    "book_price = 750\n",
+    "notebook_price = 300\n",
+    "\n",
+    "# Calculate remaining money\n",
+    "total_spent = book_price + notebook_price\n",
+    "remaining_money = initial_money - total_spent\n",
+    "\n",
+    "# Print result\n",
+    "print(\"Initial Money: Rs.\", initial_money)\n",
+    "print(\"Book Price: Rs.\", book_price)\n",
+    "print(\"Notebook Price: Rs.\", notebook_price)\n",
+    "print(\"Total Spent: Rs.\", total_spent)\n",
+    "print(\"Remaining Money: Rs.\", remaining_money)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "92ed099a-59dc-4625-adc1-db1126de7410",
+   "metadata": {},
+   "source": [
+    "## A shop sells 5 notebooks. Each notebook costs Rs. 120.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "        Number of notebooks\n",
+    "        Price of one notebook\n",
+    "\n",
+    "#### Then calculate and print the total cost."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "31abd206-e551-4b21-a43a-c6e8510f0cfb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Number of Notebooks: 5\n",
+      "Price of One Notebook: Rs. 120\n",
+      "Total Cost: Rs. 600\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Notebook cost calculation\n",
+    "\n",
+    "# Create variables\n",
+    "num_notebooks = 5\n",
+    "price_per_notebook = 120\n",
+    "\n",
+    "# Calculate total cost\n",
+    "total_cost = num_notebooks * price_per_notebook\n",
+    "\n",
+    "# Print result\n",
+    "print(\"Number of Notebooks:\", num_notebooks)\n",
+    "print(\"Price of One Notebook: Rs.\", price_per_notebook)\n",
+    "print(\"Total Cost: Rs.\", total_cost)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "dc1ed152-7e14-483a-87a4-4aec1bbe7ce0",
+   "metadata": {},
+   "source": [
+    "## A teacher has Rs. 5,000 and wants to distribute it equally among 4 students.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "    Total money\n",
+    "    Number of students\n",
+    "#### Then calculate and print how much money each student receives."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "fa9ab539-84ea-467b-9b5b-c4d3f221a819",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Total Money: Rs. 5000\n",
+      "Number of Students: 4\n",
+      "Money each student receives: Rs. 1250.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Equal distribution of money\n",
+    "\n",
+    "# Create variables\n",
+    "total_money = 5000\n",
+    "number_of_students = 4\n",
+    "\n",
+    "# Calculate money per student\n",
+    "money_per_student = total_money / number_of_students\n",
+    "\n",
+    "# Print result\n",
+    "print(\"Total Money: Rs.\", total_money)\n",
+    "print(\"Number of Students:\", number_of_students)\n",
+    "print(\"Money each student receives: Rs.\", money_per_student)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "86895ea7-859a-45d3-ba40-8a02d4bf9bff",
+   "metadata": {},
+   "source": [
+    "## A school has 47 students. Each classroom can hold 10 students.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "        Total students\n",
+    "        Students per classroom\n",
+    "\n",
+    "### Then calculate and print the number of students left over after filling the classrooms."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "835be901-cceb-4535-a2fb-6e67e65c1f94",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Total Students: 47\n",
+      "Students per Classroom: 10\n",
+      "Students left over: 7\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Students left over calculation\n",
+    "\n",
+    "# Create variables\n",
+    "total_students = 47\n",
+    "students_per_classroom = 10\n",
+    "\n",
+    "# Calculate students left over\n",
+    "students_left_over = total_students % students_per_classroom\n",
+    "\n",
+    "# Print result\n",
+    "print(\"Total Students:\", total_students)\n",
+    "print(\"Students per Classroom:\", students_per_classroom)\n",
+    "print(\"Students left over:\", students_left_over)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ebccc474-4a6b-4f42-8eb7-990d6df6df8b",
+   "metadata": {},
+   "source": [
+    "## A restaurant has 53 customers. Each table can seat 6 customers.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "        Total customers\n",
+    "        Customers per table\n",
+    "\n",
+    "### Then calculate and print the maximum number of completely filled tables."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "82e35235-ac49-4f98-8855-2c71083d9f05",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Total Customers: 53\n",
+      "Customers per Table: 6\n",
+      "Maximum number of completely filled tables: 8\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Completely filled tables calculation\n",
+    "\n",
+    "# Create variables\n",
+    "total_customers = 53\n",
+    "customers_per_table = 6\n",
+    "\n",
+    "# Calculate maximum number of completely filled tables\n",
+    "filled_tables = total_customers // customers_per_table\n",
+    "\n",
+    "# Print result\n",
+    "print(\"Total Customers:\", total_customers)\n",
+    "print(\"Customers per Table:\", customers_per_table)\n",
+    "print(\"Maximum number of completely filled tables:\", filled_tables)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6edcdbbe-c01c-44b2-91f3-d9f5ad22c0b2",
+   "metadata": {},
+   "source": [
+    "## A restaurant sells 3 burgers for Rs. 450 each and 2 drinks for Rs. 150 each.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "    Number of burgers\n",
+    "    Burger price\n",
+    "    Number of drinks\n",
+    "    Drink price\n",
+    "\n",
+    "### Calculate and print the total bill."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "f4c22f04-375a-4c44-85ce-85adf439692d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Number of Burgers: 3\n",
+      "Burger Price: Rs. 450\n",
+      "Burger Total: Rs. 1350\n",
+      "Number of Drinks: 2\n",
+      "Drink Price: Rs. 150\n",
+      "Drink Total: Rs. 300\n",
+      "Total Bill: Rs. 1650\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Restaurant bill calculation\n",
+    "\n",
+    "# Create variables\n",
+    "num_burgers = 3\n",
+    "burger_price = 450\n",
+    "num_drinks = 2\n",
+    "drink_price = 150\n",
+    "\n",
+    "# Calculate total cost\n",
+    "burger_total = num_burgers * burger_price\n",
+    "drink_total = num_drinks * drink_price\n",
+    "total_bill = burger_total + drink_total\n",
+    "\n",
+    "# Print result\n",
+    "print(\"Number of Burgers:\", num_burgers)\n",
+    "print(\"Burger Price: Rs.\", burger_price)\n",
+    "print(\"Burger Total: Rs.\", burger_total)\n",
+    "print(\"Number of Drinks:\", num_drinks)\n",
+    "print(\"Drink Price: Rs.\", drink_price)\n",
+    "print(\"Drink Total: Rs.\", drink_total)\n",
+    "print(\"Total Bill: Rs.\", total_bill)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "37308a52-b807-456e-b52f-be1f2865ac6c",
+   "metadata": {},
+   "source": [
+    "## A student has Rs. 1,000 in their wallet. They receive Rs. 500 from their parents.\n",
+    "\n",
+    "### Task:\n",
+    "    Create a variable money with the initial amount. Then add the received amount using the += operator\n",
+    "\n",
+    "    Finally, print the updated money."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "0dc80908-5b47-4ac3-ab9d-06b5d3d0cce9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Updated Money: Rs. 1500\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Wallet money calculation\n",
+    "\n",
+    "# Create variable with initial amount\n",
+    "money = 1000\n",
+    "\n",
+    "# Add received amount using += operator\n",
+    "money += 500\n",
+    "\n",
+    "# Print updated money\n",
+    "print(\"Updated Money: Rs.\", money)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1a1b85bd-a723-49c8-9f62-ab34164338b2",
+   "metadata": {},
+   "source": [
+    "## A student has Rs. 2,000 in their wallet. They spend Rs. 650 on food.\n",
+    "\n",
+    "### Task:\n",
+    "    Create a variable money with the initial amount. Then subtract the food cost using the -= operator.\n",
+    "\n",
+    "    Finally, print the remaining money."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "f72a27c8-abee-49dd-a890-8e5f1b4d17fb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Remaining Money: Rs. 1350\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Wallet money after spending\n",
+    "\n",
+    "# Create variable with initial amount\n",
+    "money = 2000\n",
+    "\n",
+    "# Subtract food cost using -= operator\n",
+    "money -= 650\n",
+    "\n",
+    "# Print remaining money\n",
+    "print(\"Remaining Money: Rs.\", money)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b7c9817b-97a1-43bd-b902-e69832ba043d",
+   "metadata": {},
+   "source": [
+    "## A water tank contains 100 liters of water. After some usage, the amount of water becomes half of the original amount.\n",
+    "\n",
+    "### Task:\n",
+    "    Create a variable water = 100. Then divide it by 2 using the /= operator.\n",
+    "\n",
+    "    Finally, print the remaining water."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "a75c12b0-d509-4ba2-8efc-3d2934996f91",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Remaining Water:  50.0 liters\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Water tank calculation\n",
+    "\n",
+    "# Create variable with initial amount\n",
+    "water = 100\n",
+    "\n",
+    "# Divide by 2 using /= operator\n",
+    "water /= 2\n",
+    "\n",
+    "# Print remaining water\n",
+    "print(\"Remaining Water: \", water, \"liters\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ee61f9ed-6346-444c-a87f-9f636e6e636c",
+   "metadata": {},
+   "source": [
+    "## A student needs 50 marks to pass an exam. They scored 72 marks.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "        Passing marks\n",
+    "        Student marks\n",
+    "#### check whether the student scored more than the passing marks.\n",
+    "\n",
+    "#### Print the result.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "02a41fe9-83bd-4981-a5b9-44944ddf094b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Passing Marks: 50\n",
+      "Student Marks: 72\n",
+      "Result: Pass\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Pass/Fail check\n",
+    "\n",
+    "# Create variables\n",
+    "passing_marks = 50\n",
+    "student_marks = 72\n",
+    "\n",
+    "# Check if student scored more than passing marks\n",
+    "if student_marks > passing_marks:\n",
+    "    result = \"Pass\"\n",
+    "else:\n",
+    "    result = \"Fail\"\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"Passing Marks:\", passing_marks)\n",
+    "print(\"Student Marks:\", student_marks)\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b3340efe-26ba-4a78-b751-3203220c635e",
+   "metadata": {},
+   "source": [
+    "## A student scored 85 marks in Mathematics and 85 marks in Science.\n",
+    "\n",
+    "    Create variables for both scores and check whether the two scores are equal.\n",
+    "\n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "5625e7da-64c2-41eb-9817-f203a9fc68b6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Math Score: 85\n",
+      "Science Score: 85\n",
+      "Result: Both scores are equal\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Check if two scores are equal\n",
+    "\n",
+    "# Create variables\n",
+    "math_score = 85\n",
+    "science_score = 85\n",
+    "\n",
+    "# Check if both scores are equal\n",
+    "if math_score == science_score:\n",
+    "    result = \"Both scores are equal\"\n",
+    "else:\n",
+    "    result = \"Scores are different\"\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"Math Score:\", math_score)\n",
+    "print(\"Science Score:\", science_score)\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3735c715-9cc1-42c2-b478-2a2bc3b4d83f",
+   "metadata": {},
+   "source": [
+    "## A bus can carry a maximum of 40 passengers. There are 35 passengers waiting to board.\n",
+    "\n",
+    "    Create variables for the bus capacity and number of passengers, then check whether the number of passengers is greater than or equal to the bus capacity.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "4bb56dcb-6752-4a85-af2a-9158d51882eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Bus Capacity: 40\n",
+      "Number of Passengers: 35\n",
+      "Result: Seats are available\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Bus capacity check\n",
+    "\n",
+    "# Create variables\n",
+    "bus_capacity = 40\n",
+    "num_passengers = 35\n",
+    "\n",
+    "# Check if passengers are greater than or equal to bus capacity\n",
+    "if num_passengers >= bus_capacity:\n",
+    "    result = \"Bus is full\"\n",
+    "else:\n",
+    "    result = \"Seats are available\"\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"Bus Capacity:\", bus_capacity)\n",
+    "print(\"Number of Passengers:\", num_passengers)\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "09fddb4a-98cb-475d-913d-fd64c1b16bb5",
+   "metadata": {},
+   "source": [
+    "## A mobile phone costs Rs. 45,000. You have Rs. 50,000.\n",
+    "\n",
+    "    Create variables for the phone price and your available money. Check whether your available money is not equal to the phone price.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "87dbda55-216b-48fb-83e4-08294de70a83",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Phone Price: Rs. 45000\n",
+      "Available Money: Rs. 50000\n",
+      "Result: Available money is not equal to phone price\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Check if available money is not equal to phone price\n",
+    "\n",
+    "# Create variables\n",
+    "phone_price = 45000\n",
+    "available_money = 50000\n",
+    "\n",
+    "# Check if available money is not equal to phone price\n",
+    "if available_money != phone_price:\n",
+    "    result = \"Available money is not equal to phone price\"\n",
+    "else:\n",
+    "    result = \"Available money is equal to phone price\"\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"Phone Price: Rs.\", phone_price)\n",
+    "print(\"Available Money: Rs.\", available_money)\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "45d22bab-0eee-46ad-8972-a958b10e5a52",
+   "metadata": {},
+   "source": [
+    "## A student can enter a competition if they are 18 years or older and have scored at least 70 marks.\n",
+    "\n",
+    "#### The student is 20 years old and scored 75 marks.\n",
+    "\n",
+    "    Create variables for age and marks, then check whether the student is eligible to enter the competition.\n",
+    "\n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "a99b2e94-4912-4d2b-838e-f43d8e68426e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Age: 20\n",
+      "Marks: 75\n",
+      "Result: Eligible to enter the competition\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Competition eligibility check\n",
+    "\n",
+    "# Create variables\n",
+    "age = 20\n",
+    "marks = 75\n",
+    "\n",
+    "# Check if student is eligible: 18+ years AND at least 70 marks\n",
+    "if age >= 18 and marks >= 70:\n",
+    "    result = \"Eligible to enter the competition\"\n",
+    "else:\n",
+    "    result = \"Not eligible to enter the competition\"\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"Age:\", age)\n",
+    "print(\"Marks:\", marks)\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "860d6f19-38a6-4881-932f-c0d5a69163f3",
+   "metadata": {},
+   "source": [
+    "## A customer gets a free delivery if their order is Rs. 2,000 or more or they have a premium membership.\n",
+    "\n",
+    "#### The customer’s order is Rs. 1,500 and they have a premium membership.\n",
+    "\n",
+    "    Create variables for the order amount and membership status, then check whether the customer gets free delivery.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "9505c2fe-5a6f-4498-9f52-9d9aa8c938a7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Order Amount: Rs. 1500\n",
+      "Premium Member: True\n",
+      "Result: Eligible for free delivery\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Free delivery eligibility check\n",
+    "\n",
+    "# Create variables\n",
+    "order_amount = 1500\n",
+    "is_premium_member = True  # True = has membership, False = no membership\n",
+    "\n",
+    "# Check if order is Rs. 2000+ OR customer has premium membership\n",
+    "if order_amount >= 2000 or is_premium_member:\n",
+    "    result = \"Eligible for free delivery\"\n",
+    "else:\n",
+    "    result = \"Not eligible for free delivery\"\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"Order Amount: Rs.\", order_amount)\n",
+    "print(\"Premium Member:\", is_premium_member)\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9fcc2c9a-4980-4df4-80f8-0dcbf7a94600",
+   "metadata": {},
+   "source": [
+    "## A student is eligible for a scholarship if their marks are 80 or higher and their attendance is 75% or higher.\n",
+    "\n",
+    "#### The student has 85 marks and 80% attendance.\n",
+    "\n",
+    "    Create variables for the marks and attendance, then check whether the student is eligible for the scholarship.\n",
+    "\n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "c97f8219-56d4-4243-bff0-bff8e66bde21",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Marks: 85\n",
+      "Attendance: 80 %\n",
+      "Result: Eligible for scholarship\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Scholarship eligibility check\n",
+    "\n",
+    "# Create variables\n",
+    "marks = 85\n",
+    "attendance = 80  # in percentage\n",
+    "\n",
+    "# Check if marks are 80+ AND attendance is 75%+\n",
+    "if marks >= 80 and attendance >= 75:\n",
+    "    result = \"Eligible for scholarship\"\n",
+    "else:\n",
+    "    result = \"Not eligible for scholarship\"\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"Marks:\", marks)\n",
+    "print(\"Attendance:\", attendance, \"%\")\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ebaf42ac-67c9-4960-be9e-982f8b93bc3e",
+   "metadata": {},
+   "source": [
+    "## A username is stored as:\n",
+    "\n",
+    "    username = \"ubaid_memon_ai\"\n",
+    "\n",
+    "    Create a variable containing \"ai\" and check whether those characters are present inside the username.\n",
+    "\n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "8708c10e-5ccd-48e8-814d-d2c9498dac72",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Username: ubaid_memon_ai\n",
+      "Searching for: ai\n",
+      "Result: Found\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Check if \"ai\" is present in username\n",
+    "\n",
+    "# Create variables\n",
+    "username = \"ubaid_memon_ai\"\n",
+    "search_text = \"ai\"\n",
+    "\n",
+    "# Check whether \"ai\" is present inside username\n",
+    "if search_text in username:\n",
+    "    result = \"Found\"\n",
+    "else:\n",
+    "    result = \"Not Found\"\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"Username:\", username)\n",
+    "print(\"Searching for:\", search_text)\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0881e8d1-cfcf-4e9c-875d-bda261d2addb",
+   "metadata": {},
+   "source": [
+    "## A company email is stored as:\n",
+    "\n",
+    "    email = \"student@gmail.com\"\n",
+    "\n",
+    "    Create a variable containing \"@\" and check whether it is present in the email address.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "1467fe4d-216e-42d3-9f57-0d9ada1c7bd9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Email: student@gmail.com\n",
+      "Checking for: @\n",
+      "Result: Valid email format - @ found\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Check if \"@\" is present in email\n",
+    "\n",
+    "# Create variables\n",
+    "email = \"student@gmail.com\"\n",
+    "symbol = \"@\"\n",
+    "\n",
+    "# Check whether \"@\" is present in the email address\n",
+    "if symbol in email:\n",
+    "    result = \"Valid email format - @ found\"\n",
+    "else:\n",
+    "    result = \"Invalid email format - @ not found\"\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"Email:\", email)\n",
+    "print(\"Checking for:\", symbol)\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b58e15bb-ca4c-43df-858f-5ee542c8a057",
+   "metadata": {},
+   "source": [
+    "## Two variables store the same value:\n",
+    "\n",
+    "    a = 100\n",
+    "    b = a\n",
+    "\n",
+    "    Check whether a and b refer to the same object.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "4046a19e-ca74-408f-ab48-02a0e0cdcf5c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a: 100\n",
+      "b: 100\n",
+      "Result: a and b refer to the same object\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Check if two variables refer to the same object\n",
+    "\n",
+    "# Create variables\n",
+    "a = 100\n",
+    "b = a\n",
+    "\n",
+    "# Check whether a and b refer to the same object\n",
+    "if a is b:\n",
+    "    result = \"a and b refer to the same object\"\n",
+    "else:\n",
+    "    result = \"a and b do not refer to the same object\"\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"a:\", a)\n",
+    "print(\"b:\", b)\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0b064b3f-da02-4f58-8c6a-7af636c6d362",
+   "metadata": {},
+   "source": [
+    "## A user enters their name:\n",
+    "\n",
+    "    name = \"\"\n",
+    "\n",
+    "    Create the variable above and check whether name is truthy or falsy.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "a977e7ae-d98a-4605-8364-0a82efa39049",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Name: \n",
+      "Result: Falsy\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Check if name is truthy or falsy\n",
+    "\n",
+    "# Create variable\n",
+    "name = \"\"\n",
+    "\n",
+    "# Check truthiness\n",
+    "if name:\n",
+    "    result = \"Truthy\"\n",
+    "else:\n",
+    "    result = \"Falsy\"\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"Name:\", name)\n",
+    "print(\"Result:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4a7252da-528e-49a7-8f29-a04b6ac2b00d",
+   "metadata": {},
+   "source": [
+    "## A student is buying a laptop.\n",
+    "\n",
+    "    Laptop price: Rs. 85,000\n",
+    "    Student has: Rs. 100,000\n",
+    "    Student gets a discount of Rs. 5,000\n",
+    "    A laptop bag costs Rs. 2,500\n",
+    "    The store has a promotion code \"SAVE10\".\n",
+    "\n",
+    "### Create variables and:\n",
+    "\n",
+    "    Calculate the laptop price after discount.\n",
+    "    Add the bag price to get the final bill.\n",
+    "    Calculate the remaining money.\n",
+    "    Check whether the student has enough money.\n",
+    "    Check whether \"SAVE10\" is present in the promotion code.\n",
+    "    Check whether the final bill is greater than Rs. 80,000.\n",
+    "    Store the result of whether the student has enough money in a variable and check whether it is truthy."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "f25b60a6-bb36-448c-8b74-f78f810ddf9b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Laptop price after discount: Rs. 80000\n",
+      "Final bill with bag: Rs. 82500\n",
+      "Remaining money: Rs. 17500\n",
+      "Has enough money: True\n",
+      "Is promo code 'SAVE10' valid: True\n",
+      "Is final bill > Rs. 80,000: True\n",
+      "Is 'has_enough_money' truthy: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Laptop purchase calculator\n",
+    "\n",
+    "# Create variables\n",
+    "laptop_price = 85000\n",
+    "student_money = 100000\n",
+    "discount = 5000\n",
+    "bag_price = 2500\n",
+    "promo_code = \"SAVE10\"\n",
+    "check_code = \"SAVE10\"\n",
+    "\n",
+    "# 1. Calculate laptop price after discount\n",
+    "price_after_discount = laptop_price - discount\n",
+    "\n",
+    "# 2. Add bag price to get final bill\n",
+    "final_bill = price_after_discount + bag_price\n",
+    "\n",
+    "# 3. Calculate remaining money\n",
+    "remaining_money = student_money - final_bill\n",
+    "\n",
+    "# 4. Check whether student has enough money\n",
+    "has_enough_money = student_money >= final_bill\n",
+    "\n",
+    "# 5. Check whether \"SAVE10\" is present in the promotion code\n",
+    "code_valid = check_code in promo_code\n",
+    "\n",
+    "# 6. Check whether final bill is greater than Rs. 80,000\n",
+    "bill_above_80k = final_bill > 80000\n",
+    "\n",
+    "# 7. Store result of enough money and check if it is truthy\n",
+    "enough_money_truthy = bool(has_enough_money)\n",
+    "\n",
+    "# Print all results\n",
+    "print(\"Laptop price after discount: Rs.\", price_after_discount)\n",
+    "print(\"Final bill with bag: Rs.\", final_bill)\n",
+    "print(\"Remaining money: Rs.\", remaining_money)\n",
+    "print(\"Has enough money:\", has_enough_money)\n",
+    "print(\"Is promo code 'SAVE10' valid:\", code_valid)\n",
+    "print(\"Is final bill > Rs. 80,000:\", bill_above_80k)\n",
+    "print(\"Is 'has_enough_money' truthy:\", enough_money_truthy)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9224a4db-6259-4a4e-8e44-c5064fd8b3ef",
+   "metadata": {},
+   "source": [
+    "### You are creating a student result calculator.\n",
+    "\n",
+    "A student has:\n",
+    "\n",
+    "    Mathematics: 85\n",
+    "    English: 72\n",
+    "    Python: 90\n",
+    "    Total possible marks per subject: 100\n",
+    "    Student name: \"Ahmed\"\n",
+    "    Required passing marks per subject: 50\n",
+    "\n",
+    "### Create variables and:\n",
+    "\n",
+    "    Calculate the student's total marks.\n",
+    "    Calculate the average marks.\n",
+    "    Calculate the percentage.\n",
+    "    Check whether the student passed Mathematics.\n",
+    "    Check whether the student passed all three subjects.\n",
+    "    Check whether the name contains the letter \"A\".\n",
+    "    Check whether the average marks are greater than or equal to 80.\n",
+    "    Store the final percentage and check whether it is truthy.\n",
+    "\n",
+    "Print all results."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "52b21353-0674-4590-bb5d-00c85878e77a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Student Name: Ahmed\n",
+      "Mathematics: 85\n",
+      "English: 72\n",
+      "Python: 90\n",
+      "Total Marks: 247\n",
+      "Average Marks: 82.33\n",
+      "Percentage: 82.33 %\n",
+      "Passed Mathematics: True\n",
+      "Passed All Subjects: True\n",
+      "Name contains 'A': True\n",
+      "Average >= 80: True\n",
+      "Final Percentage is truthy: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Student result calculator\n",
+    "\n",
+    "# Create variables\n",
+    "name = \"Ahmed\"\n",
+    "math = 85\n",
+    "english = 72\n",
+    "python = 90\n",
+    "total_possible_per_subject = 100\n",
+    "passing_marks = 50\n",
+    "letter_to_check = \"A\"\n",
+    "\n",
+    "# 1. Calculate total marks\n",
+    "total_marks = math + english + python\n",
+    "\n",
+    "# 2. Calculate average marks\n",
+    "average_marks = total_marks / 3\n",
+    "\n",
+    "# 3. Calculate percentage\n",
+    "percentage = (total_marks / (total_possible_per_subject * 3)) * 100\n",
+    "\n",
+    "# 4. Check whether student passed Mathematics\n",
+    "passed_math = math >= passing_marks\n",
+    "\n",
+    "# 5. Check whether student passed all three subjects\n",
+    "passed_all = (math >= passing_marks) and (english >= passing_marks) and (python >= passing_marks)\n",
+    "\n",
+    "# 6. Check whether name contains the letter \"A\"\n",
+    "name_contains_A = letter_to_check in name\n",
+    "\n",
+    "# 7. Check whether average marks are >= 80\n",
+    "average_above_80 = average_marks >= 80\n",
+    "\n",
+    "# 8. Store final percentage and check if it is truthy\n",
+    "final_percentage = percentage\n",
+    "percentage_truthy = bool(final_percentage)\n",
+    "\n",
+    "# Print all results\n",
+    "print(\"Student Name:\", name)\n",
+    "print(\"Mathematics:\", math)\n",
+    "print(\"English:\", english)\n",
+    "print(\"Python:\", python)\n",
+    "print(\"Total Marks:\", total_marks)\n",
+    "print(\"Average Marks:\", round(average_marks, 2))\n",
+    "print(\"Percentage:\", round(percentage, 2), \"%\")\n",
+    "print(\"Passed Mathematics:\", passed_math)\n",
+    "print(\"Passed All Subjects:\", passed_all)\n",
+    "print(\"Name contains 'A':\", name_contains_A)\n",
+    "print(\"Average >= 80:\", average_above_80)\n",
+    "print(\"Final Percentage is truthy:\", percentage_truthy)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ba212d41-6288-48c3-9569-07eda077a61e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
